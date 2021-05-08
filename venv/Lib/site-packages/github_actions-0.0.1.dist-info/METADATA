@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: github-actions
+Version: 0.0.1
+Summary: Makes working with GitHub actions easier.
+Home-page: https://github.com/montudor/py-actions
+Author: Monte Hellawell
+Author-email: monte@montudor.com
+License: UNKNOWN
+Download-URL: https://github.com/montudor/py-actions/archive/v0.0.1.tar.gz
+Keywords: github,actions,github-actions
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+
+# GitHub Actions for Python
+
+This repository contains the code for the Python package `github-actions`.
+The aim of this project is to make working with actions easier.
+
+## Installing
+
+You can install this package using pip:
+
+```
+pip install github-actions
+```
+
+

@@ -1,0 +1,3 @@
+[console_scripts]
+action-entrypoint = github_action_template.entrypoint:main
+

@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: github-action-template
+Version: 0.0.1
+Summary: A light template and boilerplate generator for GitHub actions written in Python 3.8+
+Home-page: https://github.com/Talentia-Software/OSS-github-action-python-template
+Author: Talentia Software
+Author-email: grams@talentia-software.com
+License: BSD-3-Clause
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Version Control :: Git
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: github3.py (>=1.3.0)
+
+# GitHub Action template
+
+This project helps to create [custom GitHub actions](https://docs.github.com/en/free-pro-team@latest/actions/creating-actions)
+with Python 3.
+
+* GitHub: [Talentia-Software-OSS/github-action-python-template](https://github.com/Talentia-Software-OSS/github-action-python-template)
+* Free and open source software: [BSD license](https://github.com/Talentia-Software-OSS/github-action-python-template/blob/master/LICENSE)
+
+## Features
+
+There are two ways to create a custom action: either by using JavaScript or
+by [providing a Docker container](https://docs.github.com/en/free-pro-team@latest/actions/creating-actions/creating-a-docker-container-action)
+that allows to use just any language.
+
+This project helps to code a Python 3.8+ custom action, by providing:
+
+- a [cookiecutter](https://github.com/cookiecutter/cookiecutter) template to generate a boilerplate project including
+  Dockerfile, sample action code and metadata
+- a Python package (this package) to serve as a lightweight framework for actions, used by our cookiecutter-generated 
+  action
+
+
